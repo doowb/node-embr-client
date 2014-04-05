@@ -1,0 +1,5 @@
+tasks:
+  - start
+
+endpoint: "tcp://relay-us-central-1.eve-emdr.com:8050"
+channel: ""

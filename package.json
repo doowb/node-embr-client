@@ -32,7 +32,7 @@
   "bin": {
     "emdr": "./bin/emdr"
   },
-  "main": "index.js",
+  "main": "./lib/index.js",
   "engines": {
     "node": ">=0.8"
   },
@@ -41,7 +41,11 @@
   },
   "dependencies": {
     "minimist": "~0.0.8",
-    "verbalize": "~0.1.1"
+    "verbalize": "~0.1.1",
+    "async": "~0.6.2",
+    "lodash": "~2.4.1",
+    "fs-utils": "~0.3.9",
+    "zmq": "~2.6.0"
   },
   "devDependencies": {
     "verb": "~0.2.0"
